@@ -3,7 +3,7 @@ second = int(input("Второе число: "))
 third = int(input("Третье число: "))
 if first == second and second == third:
     print("Вывод: 3")
-elif first == third or second == third:
+if first == second or first == third or second == third:
     print("Вывод: 2")
 elif first != second and second != third:
     print("Вывод: 0")
